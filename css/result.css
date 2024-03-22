@@ -1,0 +1,64 @@
+/* Styling for the form */
+.our-team .class-selector select, .our-team .class-selector button {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded borders */
+    padding: 8px 12px;
+    margin-right: 10px; /* Adjust margin as needed */
+    font-size: 16px;
+    color: #333;
+}
+
+.our-team .class-selector button {
+    cursor: pointer;
+}
+
+/* Hover effect */
+.our-team .class-selector select:hover, .our-team .class-selector button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Styling for the table */
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+#resultTable th,
+#resultTable td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#resultTable th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+#resultTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#resultTable tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Styling for the button */
+#submitBtn {
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#submitBtn:hover {
+    background-color: #555;
+}
